@@ -1,14 +1,14 @@
 /*
   	ISYS 320
-  	Name(s):
-  	Date: 
+  	Name(s): Mohammed Anohi
+  	Date:  11/22/2017
 */
 
 public class ScalableNumbersRight {
-
+	public static final int MAX = 5;
 	public static void main(String[] args) {
-		for( int line = 1; line <= 5; line++ ) {
-			for( int spacesIndex = 1; spacesIndex <= 5 - line; spacesIndex++ ) {
+		for( int line = 1; line <= MAX; line++ ) {
+			for( int spacesIndex = 1; spacesIndex <= MAX - line; spacesIndex++ ) {
 				System.out.print(" ");
 			}
 			for( int numbersIndex = 1; numbersIndex <= line; numbersIndex++ ) {
